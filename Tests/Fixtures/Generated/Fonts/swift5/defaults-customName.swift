@@ -80,8 +80,8 @@ internal struct FontConvertible {
   }
 
   fileprivate var url: URL? {
-    let bundle = BundleToken.bundle
-    return bundle.url(forResource: path, withExtension: nil)
+    // swiftlint:disable:next implicit_return
+    return BundleToken.bundle.url(forResource: path, withExtension: nil)
   }
 }
 
