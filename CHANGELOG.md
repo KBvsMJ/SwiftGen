@@ -10,7 +10,9 @@ _None_
 
 ### New Features
 
-_None_
+* Fonts/IB/JSON/Plist/Strings/XCAssets: all templates that load data at runtime from a bundle now support a `bundle` template parameter, which you can use to override the bundle from which resources are loaded. Check out the [template specific documentation](Documentation/templates/) for more information.  
+  [David Jennes](https://github.com/djbe)
+  [#737](https://github.com/SwiftGen/SwiftGen/pull/737)
 
 ### Bug Fixes
 
